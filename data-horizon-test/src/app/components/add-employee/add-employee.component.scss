@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  gap: 16px; 
+  margin-bottom: 16px; 
+}
+
+.half-width {
+  flex: 1; 
+}
+
+mat-dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+button {
+  margin-left: 8px;
+}

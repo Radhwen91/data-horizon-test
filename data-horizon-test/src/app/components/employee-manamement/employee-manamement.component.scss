@@ -1,0 +1,62 @@
+
+.header {
+  background-color: #ebeaea;
+}
+.container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+.float-right {
+  margin-left: auto; 
+}
+.clickable-icon {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.clickable-icon:hover {
+  transform: scale(1.1);
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 140px;
+}
+
+.table-container {
+  max-height: 500px; /* Hauteur maximale du conteneur */
+  overflow: auto; /* Activer le défilement vertical et horizontal si nécessaire */
+}
+
+table {
+  width: 100%; /* Assurez-vous que le tableau occupe toute la largeur du conteneur */
+  table-layout: fixed; /* Pour forcer le tableau à respecter la largeur de son conteneur */
+}
+
+.mat-paginator {
+  margin-top: 10px;
+}
+
+.green-button {
+  background-color: rgb(63, 134, 175);
+  color: white; 
+}
+
+.green-button:hover {
+  background-color: rgb(20, 231, 20);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 50px; 
+  margin-right: auto; 
+}
+
